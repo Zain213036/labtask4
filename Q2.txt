@@ -1,0 +1,22 @@
+using System;
+
+namespace Basic
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            NUmberAndDates();
+
+        }
+        private static void NUmberAndDates()
+        {
+            int age = int.Parse("27");
+            DateTime birthday = DateTime.Parse("4 july 1980");
+            Console.WriteLine($"I was born {age} years ago.");
+            Console.WriteLine($"My birthday is {birthday} years ago.");
+            Console.WriteLine($"My birthday is {birthday:D} years ago.");
+
+        }
+    }
+}

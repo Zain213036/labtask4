@@ -1,0 +1,29 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Number();
+            Localvalue();
+           
+        }
+        private static void Localvaluw()
+        {
+
+            int papulation = 87983548;
+            double wt = 1.45;
+            decimal price = 4.89M;
+                string fruite="Apple";
+            char letter = 'A';
+            bool sad = false;
+    }
+        private static void Number()
+        {
+            Console.WriteLine($"int uses {sizeof(int)} buytes in the number in the range:\n\n " + $"{int.MinValue:No} to {int.MaxValue}:\n");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine($"double uses {sizeof(double)} buytes in the number in the range:\n\n " + $"{double.MinValue:No} to {double.MaxValue}:\n");
+        }
+}
